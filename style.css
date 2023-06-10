@@ -66,6 +66,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  cursor: pointer;
 }
 .header .menu-bar span {
   width: 34px;
@@ -101,8 +102,7 @@ body {
 }
 
 .banner-content {
-  background: #202020;
-  opacity: 0.8;
+  background: url(./images/bg.png) no-repeat;
   padding: 113px 200px;
   padding-right: 0;
 }
