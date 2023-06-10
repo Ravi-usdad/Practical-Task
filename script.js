@@ -18,10 +18,11 @@ function showDivs(n) {
 
 let navLinks = document.querySelector(".menu");
 let menuOpenBtn = document.querySelector(".menu-bar");
-// let menuCloseBtn = document.querySelector(".close-icon");
+let closeBtn = document.querySelector(".close-bar")
 menuOpenBtn.onclick = function () {
-    navLinks.classList.toggle("showInput");
+    navLinks.classList.add("showInput");
 }
-// menuCloseBtn.onclick = function () {
-//     navLinks.style.right = "-100%";
-// }
+
+closeBtn.onclick = function () {
+    closeBtn.classList.remove("showInput");
+}
